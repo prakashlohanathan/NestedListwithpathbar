@@ -60,7 +60,7 @@ const NestedList = () => {
   return (
     <div className="container">
       {/* Path Bar */}
-      <h1> Nisted List With PathBar </h1>
+      <h1> Nested List With PathBar </h1>
       <div className="path-bar">
         {selectedPath.length === 0 && <span>Root</span>}
         {selectedPath.map((id, index) => {
